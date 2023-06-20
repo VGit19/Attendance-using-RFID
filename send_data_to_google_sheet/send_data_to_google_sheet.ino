@@ -7,9 +7,9 @@
 #include <WiFiClient.h>
 #include <WiFiClientSecureBearSSL.h>
 
-// Fingerprint for demo URL, expires on June 2, 2021, needs to be updated well before this date
+// demo Fingerprint for URL, fingerprint is valid for some period of time, and it changes, copy fingerprint and add '0x' before each pair. For example:
 const uint8_t fingerprint[20] = {0x4a, 0x2e, 0xb2, 0xa8, 0x29, 0x12, 0x9a, 0xca, 0xac, 0xe1, 0xe0, 0xf4, 0xa0, 0x6c, 0x74, 0x4b, 0x4b, 0x7d, 0x5b, 0xab};
-// 4a 2e b2 a8 29 12 9a ca ac e1 e0 f4 a0 6c 74 4b 4b 7d 5b ab
+// 4a 2e b2 a8 29 12 9a ca ac e1 e0 f4 a0 6c 74 4b 4b 7d 5b ab    demo fingerprint.
 
 #define RST_PIN  D3     // Configurable, see typical pin layout above
 #define SS_PIN   D4     // Configurable, see typical pin layout above
